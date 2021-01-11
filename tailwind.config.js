@@ -10,7 +10,9 @@ module.exports = {
       xl: '1280px',
     },
     colors: {
-      transparent: 'transparent',
+      whitesmoke:   '#efefef',
+      acadia:       '#1e303f',
+      transparent:  'transparent',
 
       black: '#000',
       white: '#fff',
