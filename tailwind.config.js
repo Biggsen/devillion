@@ -12,6 +12,7 @@ module.exports = {
     colors: {
       whitesmoke:   '#efefef',
       acadia:       '#1e303f',
+      wewak:        '#f5a8b4',
       transparent:  'transparent',
 
       black: '#000',
