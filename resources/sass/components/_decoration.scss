@@ -1,0 +1,13 @@
+
+//==========  Decoration ==========//
+
+.arc {
+    position: absolute;
+    width: 90%;
+    height: 40%;
+    overflow: hidden;
+    svg {
+        position: relative;
+        top: -100%;
+    }
+}
