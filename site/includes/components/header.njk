@@ -1,7 +1,9 @@
-<header id="header" class="header bg-whitesmoke flex flex-row md:justify-between items-center p-4 md:p-6">
+<header id="header" class="header bg-whitesmoke">
 
-	{% include "components/logo.njk" %}
-	{% include 'components/nav.njk' %}
-    {% include "components/mobile-nav.njk" %}
+    <div class="inner-wider flex flex-row md:flex-col md:justify-between p-4 md:p-6 items-center">
+    	{% include "components/logo.njk" %}
+    	{% include 'components/nav.njk' %}
+        {% include "components/mobile-nav.njk" %}
+    </div>
 
 </header>
