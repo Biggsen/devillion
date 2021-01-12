@@ -1,19 +1,19 @@
 {
     "main": [
         {
-            "label": "Home",
+            "label": "Home.",
             "url": "/"
         },
         {
-            "label": "About",
-            "url": "/about/"
+            "label": "Services.",
+            "url": "/services/"
         },
         {
-            "label": "Blog",
-            "url": "/blog/"
+            "label": "Thinking more about accessibility.",
+            "url": "/accessibility/"
         },
         {
-            "label": "Contact",
+            "label": "Contact.",
             "url": "/contact/"
         }
     ]
