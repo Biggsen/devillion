@@ -1215,6 +1215,11 @@ h1, h2, h3 {
   top: -100%;
 }
 
+.pattern {
+  background-image: repeating-linear-gradient(-45deg, white 0, white 1px, transparent 0, transparent 13px);
+  background-size: 18px 18px;
+}
+
 .space-y-0 > :not(template) ~ :not(template){
   --space-y-reverse: 0;
   margin-top: calc(0px * calc(1 - var(--space-y-reverse)));

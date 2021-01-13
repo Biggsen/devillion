@@ -11,3 +11,12 @@
         top: -100%;
     }
 }
+
+.pattern {
+    background-image: repeating-linear-gradient(-45deg,
+      white 0,
+      white 1px,
+      transparent 0,
+      transparent 13px);
+    background-size: 18px 18px;
+}
