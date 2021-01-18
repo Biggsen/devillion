@@ -5,6 +5,10 @@
             "url": "/"
         },
         {
+            "label": "Home2.",
+            "url": "/home2/"
+        },
+        {
             "label": "Services.",
             "url": "/services/"
         },
