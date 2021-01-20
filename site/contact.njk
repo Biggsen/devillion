@@ -6,79 +6,34 @@ body_class: contact
 title: Contact Us
 ---
 
-<main id="main" class="main inner flex flex-1 flex-col py-10 lg:py-20 focus:outline-none" tabindex="-1">
+<main id="main" class="main inner flex flex-1 flex-col md:py-10 lg:py-4 focus:outline-none" tabindex="-1">
 
     <article id="container-centre" class="column centre flex-1">
 
-        <header>
-            <h1 class="page-title">{{ title }}</h1>
-        </header>
+        <div class="heading-wrapper relative bg-acadia pl-4 md:pl-32 pr-20 md:pr-40 pt-12 pb-20">
+            <h1 class="page-title"><span class="font-bold text-wewak">Contact us</span></h1>
+            <span class="pattern absolute top-0 right-0 w-16 md:w-24 h-full block"></span>
+        </div>
 
-        <div class="content">
+        <div class="content relative pl-4 md:pl-32">
 
-            <p>Tell us how great we are in the form below.</p>
+            <h2 class="font-normal bg-whitesmoke text-2xl p-4 md:p-6 pr-4 md:pr-32 border-b-8 border-wewak"><strong class="font-bold">Email us</strong> for more details or <strong class="font-bold">call us</strong> for a chat</h2>
 
-            <form class="form">
+                <div class="inner-content pr-4 md:pr-32">
 
-                {# this form doesn't work - it's just a nice boilerplate to get you up and running #}
-                {# uses HTML5 validation #}
+                    <p>If you have any questions about our services or even just interested in accessibility, we'll be more than happy to have a conversation.</p>
 
-                {# if you add a class of 'required' to the row, you'll see the label will change to (required) #}
-                {# opinionated form UX - but it's nice and quick to see at glance what fields are required/optional #}
-                <div class="row required">
-                    <label for="name">Name</label>
-                    <input class="input" id="name" type="text" name="name" autocomplete="name" required>
+                    <p>Email us on <a href="mailto:hello@devillion.com" target="_blank" class="font-bold">hello@devillion.com</a></p>
+
+                    <p>Call us on <strong class="font-bold">07876082233</strong></p>
+
                 </div>
 
-                <div class="row required">
-                    <label for="email">Email</label>
-                    <input class="input" id="email" type="text" name="email" autocapitalize="off" autocomplete="email" required>
-                </div>
+        </div>
 
-                <div class="row required">
-                    <label for="phone">Phone</label>
-                    <input class="input" id="phone" type="text" name="phone" autocomplete="tel" required>
-                </div>
 
-                {# this field label will show as (optional) as the required class has been left off #}
-                <div class="row">
-                    <label for="message">Message</label>
-                    <textarea class="textarea" id="message" name="message"></textarea>
-                </div>
-             
-                <div class="row">
-                    <button class="inline-block rounded py-4 px-6 text-white font-bold bg-pink-500 hover:bg-pink-600" type="submit">Send message!</button>
-                </div>
-
-            </form>
 
     </article>
-
-    {# an optional and basic local business schema example #}
-    {# <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "{{ site.name }}",
-        "image": "{{ site.url }}{{ site.images.logo }}",
-        "url": "{{ site.url }}{{ page.url }}",
-        "email": "{{ site.contact.email }}",
-        "telephone": "{{ site.contact.phone }}",
-        "priceRange": "£",
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "{{ site.address.street }}",
-            "addressLocality": "{{ site.address.city }}",
-            "postalCode": "{{ site.address.postcode }}",
-            "addressCountry": "{{ site.address.country }}"
-        },
-        "sameAs": [
-            "{{ site.social_links.twitter }}",
-            "{{ site.social_links.facebook }}",
-            "{{ site.social_links.instagram }}"
-        ]
-    }
-    </script> #}
 
 </main>
 
