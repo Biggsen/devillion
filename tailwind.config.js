@@ -10,8 +10,10 @@ module.exports = {
       xl: '1280px',
     },
     colors: {
-      whitesmoke:   '#efefef',
-      acadia:       '#1e303f',
+      whitesmoke:     '#efefef',
+      'acadia-light': '#2e4a60',
+      'acadia':       '#1e303f',
+      'acadia-dark':  '#142029',
       wewak:        '#f5a8b4',
       transparent:  'transparent',
 
