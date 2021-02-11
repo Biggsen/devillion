@@ -1213,7 +1213,7 @@ h1, h2, h3 {
   top: -100%;
 }
 
-.pattern {
+.pattern-white-diag-lines {
   background-image: repeating-linear-gradient(-45deg, white 0, white 1px, transparent 0, transparent 13px);
   background-size: 18px 18px;
 }
