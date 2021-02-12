@@ -658,8 +658,9 @@ h1, h2, h3 {
   margin-top: -60px;
 }
 
-.content p {
-  margin-bottom: 2rem;
+.content ul, .content p {
+  font-family: "Roboto";
+  margin-bottom: 1.5rem;
 }
 
 .container{
@@ -691,6 +692,7 @@ h1, h2, h3 {
 }
 
 .company-logo-link {
+  height: 56px;
   background-image: url("../images/logo/devillion.svg");
 }
 

@@ -16,7 +16,8 @@ h1, h2, h3 {
     margin-top: -60px;
 
 	// paragraph
-	p {
-		@apply mb-8;
+	ul, p {
+        font-family: 'Roboto';
+		@apply mb-6;
     }
 }
