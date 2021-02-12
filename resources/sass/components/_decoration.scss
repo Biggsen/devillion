@@ -1,10 +1,9 @@
 
 //==========  Decoration ==========//
 
-.arc {
-    position: absolute;
-    width: 90%;
-    height: 40%;
+.header-arc {
+    height: 110px;
+    right: 117px;
     overflow: hidden;
     svg {
         position: relative;
@@ -17,6 +16,20 @@
       white 0,
       white 1px,
       transparent 0,
-      transparent 13px);
+      transparent 12.75px);
     background-size: 18px 18px;
+}
+
+.header-pattern {
+    height: 120px;
+    right: 24px;
+}
+
+.pattern-acadia-diag-lines {
+    background-image: repeating-linear-gradient(-45deg,
+      $acadia 0,
+      $acadia 1.5px,
+      transparent 0,
+      transparent 11px);
+    background-size: 15px 15px;
 }

@@ -1,13 +1,16 @@
 <header id="header" class="header bg-whitesmoke relative">
 
-    <div class="arc">
-        <svg height="200%" width="200%" viewBox="0 0 144 144">
-            <circle cx="72" cy="72" r="60" stroke="#f5a8b4" stroke-width="24" fill="transparent" />
-        </svg>
-    </div>
 
 
     <div class="inner-wider flex flex-row md:flex-col md:justify-between p-4 md:p-6 items-center relative">
+        <div class="header-arc absolute top-0 w-full">
+            <svg height="200%" width="200%" viewBox="0 0 144 144">
+                <circle cx="72" cy="72" r="60" stroke="#f5a8b4" stroke-width="24" fill="transparent" />
+            </svg>
+        </div>
+
+        <div class="header-pattern pattern-acadia-diag-lines absolute top-0 w-32"></div>
+
     	{% include "components/logo.njk" %}
     	{% include 'components/nav.njk' %}
         {% include "components/mobile-nav.njk" %}
