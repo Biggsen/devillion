@@ -33,3 +33,22 @@
       transparent 11px);
     background-size: 15px 15px;
 }
+
+.pattern-acadia-diag-lines-narrow {
+    background-image: repeating-linear-gradient(-45deg,
+      $acadia 0,
+      $acadia 1.5px,
+      white 0,
+      white 8px);
+    background-size: 11px 11px;
+}
+
+.triangle {
+  display: block;
+  position: absolute;
+  top: 58px;
+  border-top: 16px solid $wewak;
+  border-right: 24px solid transparent;
+}
+
+
