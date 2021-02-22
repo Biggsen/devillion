@@ -5,12 +5,12 @@
             "url": "/"
         },
         {
-            "label": "Services.",
-            "url": "/services/"
+            "label": "Accessibility.",
+            "url": "/accessibility/"
         },
         {
-            "label": "Thinking more about accessibility.",
-            "url": "/accessibility/"
+            "label": "Services.",
+            "url": "/services/"
         },
         {
             "label": "Contact.",
