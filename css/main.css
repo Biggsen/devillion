@@ -617,8 +617,8 @@ video {
 
 a {
   --text-opacity: 1;
-  color: #21183c;
-  color: rgba(33, 24, 60, var(--text-opacity));
+  color: #1e303f;
+  color: rgba(30, 48, 63, var(--text-opacity));
   text-decoration: none;
   transition-property: all;
   transition-duration: 300ms;
@@ -632,8 +632,8 @@ a:not([class]) {
 
 a:not([class]):hover {
   --text-opacity: 1;
-  color: #eb5286;
-  color: rgba(235, 82, 134, var(--text-opacity));
+  color: #f5a8b4;
+  color: rgba(245, 168, 180, var(--text-opacity));
 }
 
 h1, h2, h3 {
@@ -703,8 +703,8 @@ h1, h2, h3 {
 .mobile-nav-toggle.menu-toggle-active .mobile-nav-icon-line {
   margin: 0;
   --bg-opacity: 1;
-  background-color: #eb5286;
-  background-color: rgba(235, 82, 134, var(--bg-opacity));
+  background-color: #f5a8b4;
+  background-color: rgba(245, 168, 180, var(--bg-opacity));
 }
 
 .mobile-nav-toggle.menu-toggle-active .mobile-nav-icon-line:nth-child(1) {
@@ -724,6 +724,7 @@ h1, h2, h3 {
   transition: transform 0.5s cubic-bezier(0.77, 0, 0.175, 1);
   transition-delay: 0.1s;
   will-change: transform;
+  top: 96px;
 }
 
 .mobile-nav.menu-visible {
@@ -1189,8 +1190,8 @@ h1, h2, h3 {
 .form .input:focus,
 .form .textarea:focus {
   --border-opacity: 1;
-  border-color: #eb5286;
-  border-color: rgba(235, 82, 134, var(--border-opacity));
+  border-color: #f5a8b4;
+  border-color: rgba(245, 168, 180, var(--border-opacity));
   outline: 2px solid transparent;
   outline-offset: 2px;
 }

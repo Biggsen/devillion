@@ -15,7 +15,7 @@ $transition-length: 0.5s;
     &.menu-toggle-active {
 
         .mobile-nav-icon-line {
-            @apply m-0 bg-pink-500;
+            @apply m-0 bg-wewak;
 
             &:nth-child(1) {
                 transform: rotate(45deg) translateY(3px);
@@ -38,6 +38,8 @@ $transition-length: 0.5s;
     transition: transform $transition-length $transition-easing;
     transition-delay: 0.1s;
     will-change: transform;
+
+    top: 96px;
 
     // when menu is visible
     &.menu-visible {
