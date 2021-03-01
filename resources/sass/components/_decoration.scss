@@ -12,6 +12,7 @@
 }
 
 .pattern-white-diag-lines {
+    opacity: 0.5;
     background-image: repeating-linear-gradient(-45deg,
       white 0,
       white 1px,
@@ -26,9 +27,10 @@
 }
 
 .pattern-acadia-diag-lines {
+    opacity: 0.5;
     background-image: repeating-linear-gradient(-45deg,
-      $acadia 0,
-      $acadia 1.5px,
+      rgba(30,48,63,.7) 0,
+      rgba(30,48,63,.7) 1.5px,
       transparent 0,
       transparent 11px);
     background-size: 15px 15px;
@@ -36,8 +38,8 @@
 
 .pattern-acadia-diag-lines-narrow {
     background-image: repeating-linear-gradient(-45deg,
-      $acadia 0,
-      $acadia 1.5px,
+      rgba(30,48,63,.3) 0,
+      rgba(30,48,63,.3) 1.5px,
       white 0,
       white 8px);
     background-size: 11px 11px;
