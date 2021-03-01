@@ -1,2 +1,10 @@
 
 //==========  Buttons ==========//
+
+.button {
+    @apply text-center bg-acadia rounded-lg text-white font-bold no-underline;
+
+    &:hover {
+        @apply bg-acadia-dark;
+    }
+}

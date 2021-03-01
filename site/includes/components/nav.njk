@@ -6,7 +6,7 @@
 
         <li class="mb-4 {% if not loop.last %}md:mr-4{% endif %} md:mb-0 flex flex-1 border-8 border-white {% if page.url == item.url %}bg-white{% endif %}">
 
-            <a href="{{ item.url | safe }}" class="flex-1 link font-bold text-acadia hover:bg-white active:text-wewak {% if page.url == item.url %}active text-acadia{% endif %} p-4 leading-tight block" {% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
+            <a href="{{ item.url | safe }}" class="flex-1 link font-bold text-acadia no-underline hover:bg-white active:text-wewak {% if page.url == item.url %}active text-acadia{% endif %} p-4 leading-tight block" {% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
 
         </li>
 

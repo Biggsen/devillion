@@ -14,7 +14,8 @@ module.exports = {
       'acadia-light': '#2e4a60',
       'acadia':       '#1e303f',
       'acadia-dark':  '#142029',
-      wewak:          '#f5a8b4',
+      'wewak':        '#f5a8b4',
+      'wewak-dark':   '#ec5b70',
       transparent:    'transparent',
 
       black: '#000',
