@@ -1,15 +1,30 @@
-<div class="footer-wrapper">
 
-    <footer id="footer" class="footer bg-whitesmoke">
 
-        <div class="footer-inner container m-auto md:flex justify-between items-center px-6 py-10">
+<footer id="footer" class="footer bg-whitesmoke">
 
-            <p class="text-acadia pb-8 md:pb-0">© 2020 Devillion</p>
+    <div class="inner md:flex justify-between items-center py-10 pl-4 md:pl-32 pr-4">
 
-            {% include 'components/social-icons.njk' %}
+        <ul class="flex flex-col lg:flex-row text-acadia text-sm pb-8 md:pb-0">
+            <li>© Copyright 2021 Devillion Ltd.</li>
+            <li class="block lg:inline lg:pl-10">
+                <dl>
+                    <dt class="inline pr-2">Company Number:</dt>
+                    <dd class="inline">820 1421</dd>
+                </dl>
+            </li>
+            <li class="block lg:inline lg:pl-10">
+                <dl>
+                    <dt class="inline pr-2">VAT Number:</dt>
+                    <dd class="inline">143 3091 41</dd>
+                </dl>
+            </li>
+        </ul>
 
-        </div>
 
-    </footer>
 
-</div>
+        {% include 'components/social-icons.njk' %}
+
+    </div>
+
+</footer>
+
