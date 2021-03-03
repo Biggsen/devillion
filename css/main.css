@@ -1222,8 +1222,14 @@ h1, h2, h3 {
 }
 
 .header-arc svg {
+  width: 100%;
+  height: 100%;
   position: relative;
-  top: -100%;
+  visibility: visible !important;
+}
+
+.header-arc svg circle {
+  transform: scale(1.5);
 }
 
 .pattern-white-diag-lines {
