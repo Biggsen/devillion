@@ -8,19 +8,23 @@ body_class: 404
 title: Oops!
 ---
 
-<main id="main" class="main inner flex flex-1 flex-col py-10 lg:py-20 focus:outline-none" tabindex="-1">
+<main id="main" class="main inner flex flex-1 flex-col md:py-6 focus:outline-none" tabindex="-1">
 
-    <article id="container-centre" class="column centre flex-1">
+    <section id="container-centre" class="column centre flex-1" aria-label="Summary and features">
 
-        <header>
-            <h1 class="page-title">{{ title }}</h1>
-        </header>
-
-        <div class="content">
-           <p>Sorry, we can't find that page!</p>
-           <p><a href="/">Take me back to the homepage</a></p>
+        <div class="heading-wrapper relative bg-acadia pl-4 md:pl-32 pr-20 md:pr-40 py-6 md:py-10">
+            <h1 class="page-title text-2xl md:text-3xl mb-0">Sorry, we can't find that page!</h1>
+            <span class="pattern-white-diag-lines absolute top-0 right-0 w-16 md:w-24 h-full block"></span>
         </div>
 
-    </article>
+        <div class="content relative pl-4 md:pl-32 mb-20 mt-6">
+
+            <div class="inner-content pr-4 md:pr-32">
+                <p><a href="/">Take me back to the homepage</a></p>
+            </div>
+
+        </div>
+
+    </section>
 
 </main>
