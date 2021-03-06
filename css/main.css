@@ -1216,20 +1216,13 @@ h1, h2, h3 {
 }
 
 .header-arc {
-  height: 110px;
   right: 117px;
-  overflow: hidden;
 }
 
 .header-arc svg {
-  width: 100%;
-  height: 100%;
-  position: relative;
+  width: 109px;
   visibility: visible !important;
-}
-
-.header-arc svg circle {
-  transform: scale(1.5);
+  transform: scaleX(-1);
 }
 
 .pattern-white-diag-lines {
