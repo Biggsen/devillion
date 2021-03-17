@@ -2,25 +2,27 @@
 
 <footer id="footer" class="footer bg-whitesmoke">
 
-    <div class="inner md:flex justify-between items-center py-10 pl-4 md:pl-32 pr-4">
+    <div class="inner md:flex justify-between py-10 pl-4 md:pl-32 pr-4">
 
-        <ul class="flex flex-col lg:flex-row text-acadia text-sm pb-8 md:pb-0">
-            <li>© Copyright 2021 Devillion Ltd.</li>
-            <li class="block lg:inline lg:pl-10">
-                <dl>
-                    <dt class="inline pr-2">Company Number:</dt>
-                    <dd class="inline">820 1421</dd>
-                </dl>
-            </li>
-            <li class="block lg:inline lg:pl-10">
-                <dl>
-                    <dt class="inline pr-2">VAT Number:</dt>
-                    <dd class="inline">143 3091 41</dd>
-                </dl>
-            </li>
-        </ul>
+        <div class="pb-8 md:pb-0">
+            <ul class="flex flex-col lg:flex-row text-acadia text-sm">
+                <li>© Copyright 2021 Devillion Ltd.</li>
+                <li class="block lg:inline lg:pl-10">
+                    <dl>
+                        <dt class="inline pr-2">Company Number:</dt>
+                        <dd class="inline">820 1421</dd>
+                    </dl>
+                </li>
+                <li class="block lg:inline lg:pl-10">
+                    <dl>
+                        <dt class="inline pr-2">VAT Number:</dt>
+                        <dd class="inline">143 3091 41</dd>
+                    </dl>
+                </li>
+            </ul>
 
-
+            <p class="text-sm mt-1">Powered by <a href="https://www.11ty.dev/" target="_blank">Eleventy</a>, <a href="https://netlify.com" target="_blank">Netlify</a> and <a href="https://github.com" target="_blank">Github</a></p>
+        </div>
 
         {% include 'components/social-icons.njk' %}
 
