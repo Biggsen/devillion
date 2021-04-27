@@ -711,6 +711,10 @@ h1, h2, h3 {
   transform: rotate(-45deg) translateY(-3px);
 }
 
+.no-js .mobile-nav-toggle {
+  display: none;
+}
+
 .mobile-nav {
   transform: translate3d(-100%, 0, 0);
   transition: transform 0.5s cubic-bezier(0.77, 0, 0.175, 1);
@@ -720,6 +724,7 @@ h1, h2, h3 {
 }
 
 .mobile-nav.menu-visible {
+  display: block;
   transform: translate3d(0, 0, 0);
 }
 
@@ -1136,6 +1141,25 @@ h1, h2, h3 {
 
 .mobile-nav .item:nth-child(100) {
   transition-delay: 6.75s;
+}
+
+@media (max-width: 768px) {
+  .no-js .mobile-nav {
+    display: block;
+    position: static;
+    transform: translate3d(0, 0, 0);
+    height: auto;
+    padding-top: 0;
+  }
+
+  .no-js .mobile-nav .item {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+
+  .no-js .mobile-nav .item .link {
+    font-size: 1.5rem;
+  }
 }
 
 .button {

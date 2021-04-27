@@ -30,6 +30,10 @@ $transition-length: 0.5s;
             }
         }
     }
+
+    .no-js & {
+        display: none;
+    }
 }
 
 // mobile menu
@@ -62,6 +66,23 @@ $transition-length: 0.5s;
 
             &:nth-child(#{$i}) {
                 transition-delay: $transition-length * $i / 8 + .5;
+            }
+        }
+    }
+
+    .no-js & {
+        @media ( max-width: 768px ) {
+            display: block;
+            position: static;
+            transform: translate3d(0, 0, 0);
+            height: auto;
+            padding-top: 0;
+            .item {
+                @apply opacity-100;
+                transform: translate3d(0, 0, 0);
+                .link {
+                    font-size: 1.5rem;
+                }
             }
         }
     }
