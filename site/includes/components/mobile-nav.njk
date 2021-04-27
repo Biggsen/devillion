@@ -1,6 +1,17 @@
-<nav id="mobile-nav" class="mobile-nav fixed left-0 h-screen w-full overflow-y-auto pt-4 bg-acadia z-50 md:hidden">
+<nav>
+    <button id="mobile-nav-toggle" class="mobile-nav-toggle h-16 bottom-0 flex items-center justify-end font-bold border-none bg-whitesmoke text-acadia z-50 md:hidden" aria-label="Mobile menu toggle" aria-expanded="false" aria-controls="mobile-nav">
 
-    <ul>
+        <span class="mobile-nav-label mr-2 font-medium">Menu</span>
+
+        <span class="mobile-nav-icon" aria-hidden="true">
+            <span class="mobile-nav-icon-line bg-acadia w-6 block transition-all duration-200 ease-out mb-1"></span>
+            <span class="mobile-nav-icon-line bg-acadia w-6 block transition-all duration-200 ease-out mb-1"></span>
+            <span class="mobile-nav-icon-line bg-acadia w-6 block transition-all duration-200 ease-out"></span>
+        </span>
+
+    </button>
+
+    <ul id="mobile-nav" class="mobile-nav fixed left-0 h-screen w-full overflow-y-auto pt-4 bg-acadia z-50 hidden">
 
         {% for item in navigation.main %}
 
@@ -16,15 +27,3 @@
     </ul>
 
 </nav>
-
-<button id="mobile-nav-toggle" class="mobile-nav-toggle h-16 bottom-0 flex items-center justify-end font-bold border-none bg-whitesmoke text-acadia z-50 md:hidden" aria-label="Mobile menu toggle" aria-expanded="false" aria-controls="mobile-nav">
-
-   <span class="mobile-nav-label mr-2 font-medium">Menu</span>
-
-   <span class="mobile-nav-icon" aria-hidden="true">
-      <span class="mobile-nav-icon-line bg-acadia w-6 block transition-all duration-200 ease-out mb-1"></span>
-      <span class="mobile-nav-icon-line bg-acadia w-6 block transition-all duration-200 ease-out mb-1"></span>
-      <span class="mobile-nav-icon-line bg-acadia w-6 block transition-all duration-200 ease-out"></span>
-   </span>
-
-</button>

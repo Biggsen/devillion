@@ -43,6 +43,7 @@ $transition-length: 0.5s;
 
     // when menu is visible
     &.menu-visible {
+        display: block;
         transform: translate3d(0, 0, 0);
 
         .item {
